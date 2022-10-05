@@ -19,5 +19,4 @@ public class AppRolesEntity {
     private String nom;
     @ManyToMany(mappedBy = "appRoles")
     private List<AppUserEntity> appUsers;
-
 }
